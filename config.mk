@@ -2,8 +2,8 @@
 VERSION = 5.0
 
 # paths
-PREFIX = /usr/local
-MANPREFIX = $(PREFIX)/share/man
+PREFIX = ${HOME}/.local
+MANPREFIX = $(PREFIX)/man
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
